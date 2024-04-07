@@ -33,7 +33,8 @@ These classic flowers derive their name from the Greek goddess of the rainbow an
 
 ### **Iris flower data set**
 
-![Flowers]()
+![6874747073c6561726e696e672e706e67)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png)
+
 Three of Iris varieties (_Iris Setosa_, _Iris Virginica_ and _Iris Versicolor_) are used in the [Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set)  outlined by the British statistician and biologist [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) in his 1936 paper [The use of multiple measurements in taxonomic problems](https://digital.library.adelaide.edu.au/dspace/bitstream/2440/15227/1/138.pdf) as an example of linear discriminant analysis.
 
 The data set consist of 50 samples from each of three species, representing a total of 150 observation. Four attributes are measured from each sample: sepal length, sepal width, petal length, and petal width. The measurement was made in centimetres.
@@ -52,85 +53,17 @@ I would suggest using below programs:
 * [GitHub](https://github.com/) - it is a repository that helps developers store, manage track, and make a change to their codes.
 
 ### **Import libraries**
+asddaD
+ASDAD
 
+The data set consist of 50 samples 
+width, petal length, and petal widt
 
+---
 
+## **Investigation**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### **Set up**
 
 
 
