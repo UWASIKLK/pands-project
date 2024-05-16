@@ -108,16 +108,12 @@ The describe() method returns summary statistics of the numeric values for each 
 
 Below are 4 bar charts represending relationship between each variable (Sepal Length, Sepal Width, Petal Length, Petal Width) and 3 different species based on mean (averaga) value.
 
-Sepal Length
 ![image1](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Length%20Bar%20Chart.png)
 
-Sepal Width
 ![image2](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Width%20Bar%20Chart.png)
 
-Petal Length
 ![image3](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Bar%20Chart.png)
 
-Petal Width
 ![image4](https://github.com/UWASIKLK/pands-project/blob/main/Petal%20Width%20Bar%20Chart.png)
 
 The species Iris-virginica has the largest Sepal & Petal length. Iris-setosa has the largest Sepal width, but the smallest length and width of the Petals. In the case of Iris-versicolor, there is not much difference between all 4 variables.
