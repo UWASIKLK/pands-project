@@ -155,7 +155,17 @@ A pair plot is a matrix of scatter plots that allow us easily to take a dataset 
 
 ![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Pair%20Plot.png)
 
-### **Bar plot**
+### **Box plot**
+
+Below is a box plot for Sepal Length and Sepal Width for all 3 species
+
+![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Box%20Chart.png)
+
+Here is a box plot for Petal Length and Petal Width for all 3 species
+
+![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Box%20Chart.png)
+
+
 
 
 
