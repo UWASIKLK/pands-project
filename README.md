@@ -126,17 +126,17 @@ The species Iris-virginica has the largest Sepal & Petal length. Iris-setosa has
 
 I created 4 different histograms for all 3 species based on 4 variables.
 
-Sepal Length
 ![image1](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Length%20Hist.png)
+Sepal Length
 
-Sepal Width
 ![image2](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Width%20Hist.png)
+Sepal Width
 
-Petal Length
 ![image3](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Hist.png)
+Petal Length
 
-Petal Width
 ![image4](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Hist.png)
+Petal Width
 
 The highest number / frequency of length Sepal has the species Iris-setosa.
 The highest number / frequency of Sepal Width has the species Iris-setosa and Iris-virginica.
