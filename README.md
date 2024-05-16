@@ -14,6 +14,7 @@
     * Histograms
     * Scatter plot
     * Pair plot
+    * Bar plot
     
 
 ---
@@ -77,11 +78,11 @@ To run the python program, use the **'analysis.py'** and run through the Visual 
 
 The overal iris dataset statistic display the top 5 and last 5 rows and provide the total account of rows and columns.
 
-![image]()
+![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/pictures/overal%20summary%20of%20data%20set.png)
 
 The iloc function below displays the third row from dataset.
 
-![image]()
+![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/pictures/3rd%20row%20displays.png)
 
 The describe() method returns summary statistics of the numeric values for each variable. Below are summary rows returned:
  * count - total number of the values, which are not-empty
@@ -93,11 +94,11 @@ The describe() method returns summary statistics of the numeric values for each 
  * 75% - shows the 75% - how many of the values in dataset are less than given percentile
  * max - this is maximum value
 
- ![image]()
+ ![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/pictures/describe.png)
 
  This shows the mean value of all 4 variables for each 3 species.
 
- ![image]()
+ ![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/pictures/mean.png)
 
 ---
 
@@ -107,10 +108,17 @@ The describe() method returns summary statistics of the numeric values for each 
 
 Below are 4 bar charts represending relationship between each variable (Sepal Length, Sepal Width, Petal Length, Petal Width) and 3 different species based on mean (averaga) value.
 
-![image1](Sepal Length)
-![image2](Sepal Width)
-![image3](Petal Length)
-![image4](Petal Width)
+Sepal Length
+![image1](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Length%20Bar%20Chart.png)
+
+Sepal Width
+![image2](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Width%20Bar%20Chart.png)
+
+Petal Length
+![image3](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Bar%20Chart.png)
+
+Petal Width
+![image4](https://github.com/UWASIKLK/pands-project/blob/main/Petal%20Width%20Bar%20Chart.png)
 
 The species Iris-virginica has the largest Sepal & Petal length. Iris-setosa has the largest Sepal width, but the smallest length and width of the Petals. In the case of Iris-versicolor, there is not much difference between all 4 variables.
 
@@ -118,10 +126,17 @@ The species Iris-virginica has the largest Sepal & Petal length. Iris-setosa has
 
 I created 4 different histograms for all 3 species based on 4 variables.
 
-![image1](hist Sepal Length)
-![image2](hist Sepal Width)
-![image3](hist Petal Length)
-![image4](hist Petal Width)
+Sepal Length
+![image1](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Length%20Hist.png)
+
+Sepal Width
+![image2](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Width%20Hist.png)
+
+Petal Length
+![image3](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Hist.png)
+
+Petal Width
+![image4](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Hist.png)
 
 The highest number / frequency of length Sepal has the species Iris-setosa.
 The highest number / frequency of Sepal Width has the species Iris-setosa and Iris-virginica.
@@ -132,19 +147,19 @@ The highest number / frequency of Petal Width again has Iris-setosa and lower Ir
 
 Below is a scattered graph comparing the length and width of Sepal for all 3 species.
 
-![image](scatter plot Sepal Length & Width)
+![image](https://github.com/UWASIKLK/pands-project/blob/main/Scatter%20plot%20Sepal%20Length%20vs%20Width.png)
 
 This is a scatterred graph comparing the length and width of Petal for all 3 species.
 
-![image](scatter plot Petal Length & Width)
+![image](https://github.com/UWASIKLK/pands-project/blob/main/Scatter%20plot%20Petal%20Length%20vs%20Width.png)
 
 ### **Pair plot**
 
 A pair plot is a matrix of scatter plots that allow us easily to take a dataset and generate a relationship between each pair of variables. It consists of histograms and scatter plots that create a nice visualization and summarize a large amount of data in a single image.
 
-![image](Pair Plot)
+![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Pair%20Plot.png)
 
-### **Box plot**
+### **Bar plot**
 
 
 
