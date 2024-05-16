@@ -15,7 +15,7 @@
     * Scatter plot
     * Pair plot
     * Bar plot
-    
+* **References**
 
 ---
 
@@ -80,7 +80,7 @@ The overal iris dataset statistic display the top 5 and last 5 rows and provide 
 
 ![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/pictures/overal%20summary%20of%20data%20set.png)
 
-The iloc function below displays the third row from dataset.
+The iloc() function below displays the third row from dataset.
 
 ![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/pictures/3rd%20row%20displays.png)
 
@@ -157,16 +157,39 @@ A pair plot is a matrix of scatter plots that allow us easily to take a dataset 
 
 ### **Box plot**
 
-Below is a box plot for Sepal Length and Sepal Width for all 3 species
+Box plot is used to show ditribution of numeric data values. It's offering general information about a group of data's symmetry, skew, variance and outliers.
+
+Below is a box plot for Sepal Length and Sepal Width for all 3 species.
 
 ![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Box%20Chart.png)
 
-Here is a box plot for Petal Length and Petal Width for all 3 species
+Here is a box plot for Petal Length and Petal Width for all 3 species.
 
 ![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Box%20Chart.png)
 
+## **References**
 
+[https://www.interflora.ie/page/flower-types/iris](https://www.interflora.ie/page/flower-types/iris)
 
+[https://en.wikipedia.org/wiki/Iris_(plant)#:~:text=Iris%20is%20the%20largest%20genus,this%20genus%20as%20of%202022](https://en.wikipedia.org/wiki/Iris_(plant)#:~:text=Iris%20is%20the%20largest%20genus,this%20genus%20as%20of%202022.)
+
+[https://en.wikipedia.org/wiki/Iris_flower_data_set](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+[https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:326330-2](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:326330-2)
+
+[https://stackabuse.com/rotate-axis-labels-in-matplotlib/](https://stackabuse.com/rotate-axis-labels-in-matplotlib/)
+
+[https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/](https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/)
+
+[https://www.geeksforgeeks.org/how-to-plot-histogram-from-list-of-data-in-matplotlib/?ref=ml_lbp](https://www.geeksforgeeks.org/how-to-plot-histogram-from-list-of-data-in-matplotlib/?ref=ml_lbp)
+
+[https://www.nickmccullum.com/python-visualization/histogram/](https://www.nickmccullum.com/python-visualization/histogram/https://www.nickmccullum.com/python-visualization/histogram/)
+
+[https://matplotlib.org/stable/gallery/color/named_colors.html](https://matplotlib.org/stable/gallery/color/named_colors.html)
+
+[https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.DataFrame.plot.html](https://pandas.pydata.org/pandas-docs/version/0.23/generated/pandas.DataFrame.plot.html)
+
+[https://medium.com/@hfahmida/eda-for-iris-dataset-with-boxplots-violin-plots-heatmap-pairwise-plots-535275b4c2a0](https://medium.com/@hfahmida/eda-for-iris-dataset-with-boxplots-violin-plots-heatmap-pairwise-plots-535275b4c2a0)
 
 
 
