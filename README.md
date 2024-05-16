@@ -23,8 +23,7 @@
 ## **Introduction**
 
 ### **Aims**
-This project aims to use the Iris dataset to demonstrate different analysis using Python with the level of skills acquired during the course. I show the research and 
-exploration done on the dataset and, as a result, display/render the data to better understand the data within it, the differences, and how they compare. 
+This project aims to use the Iris dataset to demonstrate different analysis using Python with the level of skills acquired during the course. I show the research and exploration done on the dataset and, as a result, display/render the data to better understand the data within it, the differences, and how they compare. 
 
 ### **Iris flowers**
 
@@ -123,16 +122,12 @@ The species Iris-virginica has the largest Sepal & Petal length. Iris-setosa has
 I created 4 different histograms for all 3 species based on 4 variables.
 
 ![image1](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Length%20Hist.png)
-Sepal Length
 
 ![image2](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Width%20Hist.png)
-Sepal Width
 
 ![image3](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Hist.png)
-Petal Length
 
 ![image4](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Petal%20Length%20Hist.png)
-Petal Width
 
 The highest number / frequency of length Sepal has the species Iris-setosa.
 The highest number / frequency of Sepal Width has the species Iris-setosa and Iris-virginica.
