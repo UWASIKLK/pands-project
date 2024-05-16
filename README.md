@@ -11,11 +11,10 @@
     * Data insight
 * **Data visualization**
     * Variables relation 
-    * Histogram
+    * Histograms
+    * Scatter plot
     * Pair plot
-    * Heatmaps
-    * Box plot
-    * Violin plot
+    
 
 ---
 
@@ -38,8 +37,8 @@ These classic flowers derive their name from the Greek goddess of the rainbow an
 ![6874747073c6561726e696e672e706e67)](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Machine+Learning+R/iris-machinelearning.png)
 
 Three of Iris varieties (_Iris Setosa_, _Iris Virginica_ and _Iris Versicolor_) are used in the [Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set)  
-outlined by the British statistician and biologist [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) in his 1936 paper [The use of multiple measurements in taxonomic 
-problems](https://digital.library.adelaide.edu.au/dspace/bitstream/2440/15227/1/138.pdf) as an example of linear discriminant analysis.
+outlined by the British statistician and biologist [Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher) in his 1936 paper '[The use of multiple measurements in taxonomic 
+problems](https://digital.library.adelaide.edu.au/dspace/bitstream/2440/15227/1/138.pdf)' as an example of linear discriminant analysis.
 
 The data set consist of 50 samples from each of three species, representing a total of 150 observation. Four attributes are measured from each sample: sepal length, sepal 
 width, petal length, and petal width. The measurement was made in centimetres.
@@ -70,3 +69,85 @@ I used the numpy for working with arrays. To be able to download, read, manipula
 ### **Data download**
 
 The data set was downloaded from [https://archive.ics.uci.edu/dataset/53/iris](https://archive.ics.uci.edu/dataset/53/iris). 
+
+### **Data insight**
+
+After I download aniris dataset, I want to review the data to get an overview of what's in the dataset.
+To run the python program, use the **'analysis.py'** and run through the Visual Studio Code. All outputs are written in **'summary.txt'** file or saved as individual **png** files.
+
+The overal iris dataset statistic display the top 5 and last 5 rows and provide the total account of rows and columns.
+
+![image]()
+
+The iloc function below displays the third row from dataset.
+
+![image]()
+
+The describe() method returns summary statistics of the numeric values for each variable. Below are summary rows returned:
+ * count - total number of the values, which are not-empty
+ * mean - this is an average value
+ * std - this is standard deviation
+ * min - this is minimum value
+ * 25% - shows the 25% - how many of the values in dataset are less than given percentile
+ * 50% - shows the 50% - how many of the values in dataset are less than given percentile
+ * 75% - shows the 75% - how many of the values in dataset are less than given percentile
+ * max - this is maximum value
+
+ ![image]()
+
+ This shows the mean value of all 4 variables for each 3 species.
+
+ ![image]()
+
+---
+
+ ## **Data Visualization**
+
+### **Variables relation**
+
+Below are 4 bar charts represending relationship between each variable (Sepal Length, Sepal Width, Petal Length, Petal Width) and 3 different species based on mean (averaga) value.
+
+![image1](Sepal Length)
+![image2](Sepal Width)
+![image3](Petal Length)
+![image4](Petal Width)
+
+The species Iris-virginica has the largest Sepal & Petal length. Iris-setosa has the largest Sepal width, but the smallest length and width of the Petals. In the case of Iris-versicolor, there is not much difference between all 4 variables.
+
+### **Histograms**
+
+I created 4 different histograms for all 3 species based on 4 variables.
+
+![image1](hist Sepal Length)
+![image2](hist Sepal Width)
+![image3](hist Petal Length)
+![image4](hist Petal Width)
+
+The highest number / frequency of length Sepal has the species Iris-setosa.
+The highest number / frequency of Sepal Width has the species Iris-setosa and Iris-virginica.
+The highest number / frequency of Petal Length has Iris-setosa, lower Iris-virginica.
+The highest number / frequency of Petal Width again has Iris-setosa and lower Iris-virginica.
+
+### **Scatter plot**
+
+Below is a scattered graph comparing the length and width of Sepal for all 3 species.
+
+![image](scatter plot Sepal Length & Width)
+
+This is a scatterred graph comparing the length and width of Petal for all 3 species.
+
+![image](scatter plot Petal Length & Width)
+
+### **Pair plot**
+
+A pair plot is a matrix of scatter plots that allow us easily to take a dataset and generate a relationship between each pair of variables. It consists of histograms and scatter plots that create a nice visualization and summarize a large amount of data in a single image.
+
+![image](Pair Plot)
+
+### **Box plot**
+
+
+
+
+
+
