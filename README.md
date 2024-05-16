@@ -119,6 +119,8 @@ The species Iris-virginica has the largest Sepal & Petal length. Iris-setosa has
 
 ### **Histograms**
 
+The historgram is a popular graphic tool which is used to summarize data that are measured on an interval scale showing the major features of the distribution of the data.
+
 I created 4 different histograms for all 3 species based on 4 variables.
 
 ![image1](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Sepal%20Length%20Hist.png)
@@ -136,9 +138,11 @@ The highest number / frequency of Petal Width again has Iris-setosa and lower Ir
 
 ### **Scatter plot**
 
-Below is a scattered graph comparing the length and width of Sepal for all 3 species.
+A scatter chart is a graphical presentation that uses dots to explain the relationship between two variables. Dots represent values and show patterns when the data is taken. I created two different scatter charts using all the information form datasets, comparing the length and width of Sepal, the length and width of the petal for all 3 species. I added a trendline for all data points for each kind, as well as a trendline for all data points combined to show a general overview and correlation. 
 
-![image](https://github.com/UWASIKLK/pands-project/blob/main/Scatter%20plot%20Sepal%20Length%20vs%20Width.png)
+Below is a scatterred graph comparing the lenght and width of Sepal for all 3 species.
+
+![image](https://raw.githubusercontent.com/UWASIKLK/pands-project/main/Scatter%20plot%20Sepal%20Length%20vs%20Width.png)
 
 This is a scatterred graph comparing the length and width of Petal for all 3 species.
 
